@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mypackage"
+version = "0.0.1"
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "pandas",
+    "h5py",
+    "xlrd",
+    ]
+
+[tool.setuptools.packages]
+find = {}
